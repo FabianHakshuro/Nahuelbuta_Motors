@@ -1,0 +1,172 @@
+* {
+  font-family: 'Teko', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: #221a3e;
+  background: linear-gradient(83deg, #221a3e 25%, #878783 100%, #b4b43b 100%, #797979 100%, #fbfbfb 100%, #232606 100%, #2b3a14 100%, #30400b 100%, #2b3f0c 100%, #395313 100%, #395313 100%, #677232 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#221a3e",endColorstr="#677232",GradientType=1);
+}
+
+/*INDEX*/
+ul li a {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-decoration: none;
+  font-size: 340%;
+  color: #e21313;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+ul li a:hover {
+  background-color: #3a1515;
+  font-size: 1rem;
+}
+
+/*SERVICIOS*/
+.listas {
+  list-style-position: inside;
+  list-style-type: numbers;
+  line-height: 2rem;
+  color: aqua;
+  font-size: 0.9rem;
+}
+
+.listas .servicios {
+  color: #f5d002;
+  width: 30%;
+}
+
+h4 {
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+h4 h3 {
+  text-align: center;
+  color: white;
+}
+
+h4 h3 h2 {
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  margin-top: 0px;
+  color: #332727;
+  background-color: aliceblue;
+}
+
+/*Parrafos en la pagina NOSOTROS*/
+p {
+  padding: 12rem;
+  margin: 2rem;
+  margin-left: 1rem;
+  color: white;
+  font-size: 1.8rem;
+}
+
+/*Lista de Servicios*/
+/*Bordes de las imagenes en CONTENIDOS*/
+.bordesRedondos {
+  height: 270px;
+  border-radius: 15%;
+  padding: 2rem;
+}
+
+/*Imagen NOSOTROS*/
+.imagen {
+  margin: 0;
+  padding: 12rem;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../imagenes/logo33.jpg);
+}
+
+/*Imagen CONTACTENOS*/
+.imagenPortada {
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+}
+
+/*Footer*/
+.piePagina {
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: #9b9455;
+  font-size: 30px;
+  color: #161618;
+  grid-area: footer;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 1300px) {
+  .nav ul {
+    width: 100%;
+  }
+  ul li a {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contanider-grid {
+    -ms-grid-rows: 220px 70vh 200px;
+        grid-template-rows: 220px 70vh 200px;
+  }
+  .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .logo {
+    margin-left: auto;
+    left: 0;
+  }
+  .nav ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    margin-top: 10px;
+  }
+}
+
+button {
+  padding: 0,9rem;
+  color: #332020;
+  background-color: transparent;
+}
+
+.carousel-caption {
+  top: 20%;
+  bottom: 0.25rem;
+  left: 15%;
+  padding-bottom: 1.25rem;
+  color: #c74747;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
