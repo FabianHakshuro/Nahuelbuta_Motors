@@ -1,0 +1,28 @@
+/*RESPONSIVE*/
+@media screen and (max-width: 1400px) {
+    .nav ul {
+        width: 100%;     
+        }
+    ul li a {
+        font-size: 1rem;
+        }
+    }
+    
+    @media screen and (max-width: 800px) {
+        .contanider-grid {
+            grid-template-rows: 220px 70vh 200px;
+        }
+        .nav {
+            flex-wrap: wrap;
+        }
+        .logo {
+            margin-left: auto;
+            left: 0;
+        }
+        .nav ul {
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-top: 10px;
+    
+        }
+    }

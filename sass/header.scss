@@ -1,38 +1,30 @@
+
 .header{
-    background-color: rgb(0,0,0);
-    padding: 2rem;
-    display: flex;
-    grid-area: header;
-    background: rgb(34,26,62);
-    background: -moz-linear-gradient(83deg, rgba(34,26,62,1) 25%, rgba(135,135,131,1) 100%, rgba(180,180,59,1) 100%, rgba(121,121,121,1) 100%, rgba(251,251,251,1) 100%, rgba(35,38,6,1) 100%, rgba(43,58,20,1) 100%, rgba(48,64,11,1) 100%, rgba(43,63,12,1) 100%, rgba(57,83,19,1) 100%, rgba(57,83,19,1) 100%, rgba(103,114,50,1) 100%);
-    background: -webkit-linear-gradient(83deg, rgba(34,26,62,1) 25%, rgba(135,135,131,1) 100%, rgba(180,180,59,1) 100%, rgba(121,121,121,1) 100%, rgba(251,251,251,1) 100%, rgba(35,38,6,1) 100%, rgba(43,58,20,1) 100%, rgba(48,64,11,1) 100%, rgba(43,63,12,1) 100%, rgba(57,83,19,1) 100%, rgba(57,83,19,1) 100%, rgba(103,114,50,1) 100%);
-    background: linear-gradient(83deg, rgba(34,26,62,1) 25%, rgba(135,135,131,1) 100%, rgba(180,180,59,1) 100%, rgba(121,121,121,1) 100%, rgba(251,251,251,1) 100%, rgba(35,38,6,1) 100%, rgba(43,58,20,1) 100%, rgba(48,64,11,1) 100%, rgba(43,63,12,1) 100%, rgba(57,83,19,1) 100%, rgba(57,83,19,1) 100%, rgba(103,114,50,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#221a3e",endColorstr="#677232",GradientType=1);
+    
     .nav{
+        background-color: black;
         display: flex;
-        flex-direction: row; /* revisar */
-        align-items: center;
         justify-content: space-between;
         width: 100%;
+        position: relative;
         ul{
             display: flex;
             flex: auto; /*revisar*/
             justify-content: space-around;
             width: 2rem;
             list-style-type: none;
-            li{
-                font-size: 2rem;
-                a{
-                    flex: auto; /*revisar*/
-                    text-decoration: none;
-                    font-size: 3rem;
-                    color: rgb(255, 255, 255);
-                    transition: all 0.6s;
-                    &:hover{
-                        color: rgb(58, 21, 21);
-                        font-size: 1.3rem;
-                    }
-                }
+                li{
+                    font-size: 2rem;
+                    a{
+                        flex: auto; /*revisar*/
+                        text-decoration: none;
+                        font-size: 3rem;
+                        transition: all 0.6s;
+                        &:hover{
+                            color: rgb(58, 21, 21);
+                            font-size: 1.3rem;
+                  }
+               }
             }
         }
     }

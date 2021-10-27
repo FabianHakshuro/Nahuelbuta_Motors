@@ -1,13 +1,8 @@
 @import "header";
 @import "inicio";
+@import "media-queris";
 
 
-*{  
-    font-family: 'Teko', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;   
-}
 
 
 /*SERVICIOS*/
@@ -31,7 +26,7 @@ h4{
     
     h3{
     text-align: center;
-    color: white;
+    color: rgb(34, 30, 30);
     
     h2{
         text-align: center;
@@ -54,7 +49,7 @@ p{
     padding: 12rem;
     margin: 2rem;
     margin-left: $rem;
-    color: rgb(255, 255, 255);
+    color: rgb(184, 88, 88);
     font-size: 1.8rem;
 }
 
@@ -93,43 +88,10 @@ p{
     width: 100%;
     background-color: rgb(155, 148, 85);
     font-size: 30px;
-    color: rgb(22, 22, 24); 
+    color: rgb(81, 81, 175); 
     grid-area: footer; 
 }
 
 
-/*RESPONSIVE*/
-@media screen and (max-width: 1300px) {
-.nav ul {
-    width: 100%;     
-    }
-ul li a {
-    font-size: $rem;
-    }
-}
 
-@media screen and (max-width: 800px) {
-    .contanider-grid {
-        grid-template-rows: 220px 70vh 200px;
-    }
-    .nav {
-        flex-direction: column;
-    }
-    .logo {
-        margin-left: auto;
-        left: 0;
-    }
-    .nav ul {
-        display: grid;
-        grid-template-columns: auto auto;
-        margin-top: 10px;
-
-    }
-}
-
-button {
-    padding: 0,9rem;
-    color: rgb(51, 32, 32); 
-    background-color: transparent;   
-}
 
